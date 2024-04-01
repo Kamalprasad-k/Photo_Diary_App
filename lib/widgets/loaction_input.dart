@@ -30,7 +30,7 @@ class _LoactionInputState extends State<LoactionInput> {
     final lat = pickedLoaction!.latitude;
     final lng = pickedLoaction!.longitude;
 
-    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C$lat,$lng&key=AIzaSyC_949SFPGneIttJyLwNdoXp4vZUtKpHco';
+    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C$lat,$lng&key=';
   }
 
   void _saveLoaction(double lat, double lng) async {
