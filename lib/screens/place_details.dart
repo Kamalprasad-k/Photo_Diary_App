@@ -19,7 +19,7 @@ class PlaceDetailsScreen extends ConsumerStatefulWidget {
     final lat = place.location.latitude;
     final lng = place.location.longitude;
 
-    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C$lat,$lng&key=AIzaSyC_949SFPGneIttJyLwNdoXp4vZUtKpHco';
+    return 'https://maps.googleapis.com/maps/api/staticmap?center=$lat,$lng&zoom=16&size=600x300&maptype=roadmap&markers=color:red%7Clabel:C%7C$lat,$lng&key=';
   }
 
   @override
